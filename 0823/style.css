@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'S-CoreDream-3Light'; 
+}
+h2{
+    font-size:2rem;
+    text-align: center;
+}
+article{
+    font-size:.8rem;
+    width:45vw;
+    border: 1px solid #666;
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+    margin: auto;
+    background-color: #666;
+    color: white;
+}
+main section{
+    margin: 2rem auto;
+    text-align: center;
+}
+section p{font-size: 1.4rem;}
+table{
+    width: 600px;
+    margin:auto;
+}
+table tr:last-of-type td{
+    border: 0.5px solid rgb(71, 71, 71);
+    padding: .4rem 1rem;
+}
+table tr:last-of-type td:nth-of-type(1){background-color:rgb(230, 198, 192)}
+table tr:last-of-type td:nth-of-type(2){background-color:rgb(216, 154, 143)}
+table tr:last-of-type td:nth-of-type(3){background-color:rgb(227, 98, 75)}
+table tr:last-of-type td:nth-of-type(4){background-color:rgb(237, 35, 0)}
+
+#calculate{
+    margin:auto;
+    padding:2rem 1rem;
+    width:50vw;
+    background-color:rgb(180, 222, 205);
+    border-radius:10px;
+}
+input{
+    margin-right:0.3rem;
+    border:1px solid rgb(117, 152, 137);
+    /* outline:none; */
+}
+#calculate button{
+    width:80px;
+    border:none;
+    width:
+}
+#calculate button:first-of-type{
+    background-color: rgb(117, 152, 137);
+    color:#efefef;
+}
+
+#calculate button:last-of-type{color: rgb(117, 152, 137);}  
+#result{
+    margin: .5rem auto;
+    padding:1rem 0.9rem;
+    width:50vw;
+    background-color:rgb(117, 152, 137);
+    color:#efefef;
+    border-radius:10px;
+}  
+#calculate p, #result p{font-size:.9rem;}
+

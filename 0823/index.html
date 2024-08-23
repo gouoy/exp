@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="font-size:16px">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>산술 연산자와 비교 연산자를 활용한 웹 사이트 제작 </title>
 </head>
 <body>
-    
+    <h2>BMI 계산기 🏋</h2>
+    <main>
+        <article>
+            체질량지수는 자신의 몸무게(kg)를 키의 제곱(m)으로 나눈 값입니다. <br>
+            체질량지수는 근육량, 유전적 원인, 다른 개인적 차이를 반영하지 못하는 단점이 있음에도 불구하고 <br>
+            조사자들이나 의료인들이 가장 많이 쓰는 방법 중 하나입니다.
+        </article>
+        <section>
+            <p>체중</p>
+            <table>
+                <tr>
+                    <td>BMI</td>
+                    <td>18.5</td>
+                    <td>23</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>저체중</td>
+                    <td>정상</td>
+                    <td>과체중</td>
+                    <td>비만</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <div id="calculate">
+                <p>신장 <input type="text">cm</p>
+                <p>체중 <input type="text">kg</p>
+                <p>
+                    <button>계산</button>
+                    <button>초기화</button>
+                </p>
+            </div>
+            <div id="result">
+                <p>"비만"</p>
+                <p>체지방 지수는 "" 입니다.</p>
+            </div>
+        </section>
+    </main>
+
+    <scrip src="script.js"></scrip>
 </body>
 </html>
