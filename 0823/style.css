@@ -35,11 +35,26 @@ table tr:last-of-type td{
     border: 0.5px solid rgb(71, 71, 71);
     padding: .4rem 1rem;
 }
-table tr:last-of-type td:nth-of-type(1){background-color:rgb(230, 198, 192)}
-table tr:last-of-type td:nth-of-type(2){background-color:rgb(216, 154, 143)}
-table tr:last-of-type td:nth-of-type(3){background-color:rgb(227, 98, 75)}
-table tr:last-of-type td:nth-of-type(4){background-color:rgb(237, 35, 0)}
+table tr:last-of-type td:nth-of-type(1){
+    background-color:rgb(230, 198, 192);
+    width:30%;
+}
+table tr:last-of-type td:nth-of-type(2){
+    background-color:rgb(216, 154, 143);
+    width:15%;
+}
+table tr:last-of-type td:nth-of-type(3){
+    background-color:rgb(227, 98, 75);
+    width: 15%; 
+}
+table tr:last-of-type td:nth-of-type(4){
+    background-color:rgb(237, 35, 0);
+    width: 40%; 
+}
 
+table tr:first-of-type td{
+    text-align: left;
+}
 #calculate{
     margin:auto;
     padding:2rem 1rem;
