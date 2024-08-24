@@ -70,6 +70,7 @@ input{
 #calculate button{
     width:80px;
     border:none;
+    cursor: pointer;
 }
 
 #calculate button:first-of-type{
