@@ -80,6 +80,8 @@ input{
 
 #calculate button:last-of-type{color: rgb(117, 152, 137);}  
 #result{
+    display:none;
+    flex-direction:column;
     margin: .5rem auto;
     padding:1rem 0.9rem;
     width:50vw;
@@ -87,5 +89,9 @@ input{
     color:#efefef;
     border-radius:10px;
 }  
+#verkeerd{
+    display:none;
+    justify-content: center;
+}
 #calculate p, #result p{font-size:.9rem;}
 
