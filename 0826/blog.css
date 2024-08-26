@@ -1,0 +1,109 @@
+@import 'reset.css'; 
+
+/* HEADER 👱‍♂️ */
+header{
+    background-image: url('aardbei.jpg');
+    height:40vh;
+}
+nav{
+    height: 50px;
+    background-color: rgb(222, 213, 213,.8);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: bold;
+    color:rgb(227, 92, 39);
+}
+nav div{margin: 0 40px;}
+nav div:last-child{
+    padding:5px 0;
+    width:50vw;
+    display:flex;
+    justify-content: space-between;
+}
+nav div:last-child span{ padding: 10px 50px;}
+header p{
+    font-size: 26px;
+    text-align:center;
+    line-height: 250px;
+    color:white;
+}
+/* MAIN _______________ 🀄︎ */
+section{
+    display: flex;
+    justify-content:flex-end;
+    background-color: #dde4db;
+}
+section p{
+    padding: 8px;
+    border-radius: 20px;
+    color:rgb(227, 92, 39);
+    background-color: #f2ecec;
+    margin:16px;
+}
+section .active{
+    color: #f2ecec;
+    background-color:rgb(227, 92, 39)
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+
+}
+article{
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow:2;
+}
+article div{
+    border: 1px solid #666;
+    border-radius:10px;
+    width: 400px;
+    display:flex; 
+    flex-direction:column;
+    align-items:center;
+    margin:30px ;
+    padding:20px;
+}
+article>div p{
+    width:350px;
+    height:250px;
+    background-color:rgb(235, 182, 182);
+    text-align:center;
+    line-height: 250px;
+}
+
+article>div:nth-of-type(2) p{background-color:rgb(101, 60, 34)}
+article>div:nth-of-type(3) p{background-color:rgb(248, 169, 0)}
+article>div:nth-of-type(4) p{background-color:rgb(255, 101, 99)}
+article>div:nth-of-type(5) p{background-color:rgb(204, 212, 145)}
+article>div:nth-of-type(6) p{background-color:rgb(199, 135, 224)}
+
+aside{
+    margin-right:50px;
+    margin-top:30px;
+    width:700px;
+    padding:20px;
+}
+aside h4{
+    text-align:left;
+    height:50px;
+    background-color:#dde4db; 
+    padding:10px;
+    border-radius:20px;
+}
+
+aside ul{
+    background-color:#dde4db;
+    padding:10px;
+    line-height:30px;
+    border-radius:20px;
+}
+ul li{padding-left:10px;}
+footer{
+    padding: 20px 0;
+    text-align:center;
+    height:70px;
+    background-color:rgb(190, 150, 150);
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    color:#222;
+}
+
+body{
+    margin:0 auto;
+    padding:0;
+    font-family: 'Pretendard-Regular';
+    width: 1350px;
+}
+a, strong, em {
+    text-decoration:none;
+    
+}
+li{list-style-type:none;}
