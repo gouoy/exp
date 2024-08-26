@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box model</title>
+    <style>
+        div{
+            width: 400px;
+            height:200px;
+            text-align:center;
+            line-height: 200px;
+        }
+        .contentBox{
+            box-sizing: content-box;
+            padding:20px;
+            margin:10px;
+            border:10px dashed black;
+        }
+        .borderBox{
+            box-sizing: border-box;
+            padding:20px;
+            margin:10px;
+            border:10px dashed black;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="contentBox" style="background-color: pink ;">
+        <p>content-box</p>
+    </div>
+    <div class="box" style="background-color: #666 ; color: white">
+        <p>default</p>
+    </div>
+    <div class="borderBox" style="background-color: green">
+        <p>border-box</p>
+    </div>
 </body>
 </html>
