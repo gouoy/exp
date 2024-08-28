@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    
+    <div>
+    <h1>기본 선택자 이해하기</h1>
+    <h3>태그, 클래스, id 태그를 사용해본 코드 파일</h3>
+
+    <p>tag</p>
+    <p class="pClass" id="pId">Class & Id </p>
+    <p class="pClass">Class</p>
+    <p id="pId">Id</p>
+    </div>
+    <hr>
+    
+    <h1>가상 선택자 이해하기</h1>
+    <h3>checked, enabled, disabled 태그를 사용해본 코드 파일, 웹 페이지 스크린샷</h3>
+    <form>
+        <span>default</span><input class="input1" type="text"><input class="input1-1" type="checkbox">
+        <span>checked</span><input class="input2" type="checkbox" checked>
+        <span>focus</span><input class="input3" type="text"> 
+        <span>enabled</span><input class="input4" type="text" enabled>
+        <span>disabled</span><input class="input4" type="text" disabled>
+    </form>
+    <hr>
+    
+    <h1>자손 선택자 이해하기</h1>
+    <h3> &gt; 사용 여부에 따라 스타일이 달라지는 웹 페이지 스크린샷</h3>
+    <div class="parent">
+        GreatParent
+        <div>
+            Parent
+            <div>
+                 Son
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <h1>css 배치 이해하기</h1>
+    <h3>none, block, inline 속성이 포함된 코드 파일, 웹 페이지 스크린샷</h3>
+    <div class="box1">
+        <span>none</span>
+        <span>none</span>
+        <span>none</span>
+    </div>
+    <div class="box2">
+        <span>inline</span>
+        <span>inline</span>
+        <span>inline</span>
+    </div>
+    <div class="box3">
+        <span>default</span>
+        <span>default</span>
+        <span>default</span>
+    </div>
+    <div class="box4">
+        <span>inline-block</span>
+        <span>inline-block</span>
+        <span>inline-block</span>
+    </div>
+    <div class="box5">
+        <span>block</span>
+        <span>block</span>
+        <span>block</span>
+    </div>
+    <hr>
+    
+    <h1>table에 css 적용하기</h1>
+    <h3>가상 선택자를 활용하여 :hover인 경우, 셀 색상이 변경되도록 구현한 코드 파일, 화면 녹화 영상/h3>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <script>
+        let focused = document.querySelector('.input3');
+        focused.focus();
+    </script>
+
+</body>
+</html>

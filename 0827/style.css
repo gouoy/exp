@@ -1,0 +1,60 @@
+
+div>p{
+    width: 200px;
+    height: 100px;
+    background-color: #6b8e55;
+    color: white;
+    text-align:center;
+    line-height:100px;
+}
+
+#pId{background-color:rgb(111, 100, 211);}
+.pClass{background-color:purple;}
+
+.parent{
+    width:300px; height:250px;
+    background-color:red;
+    font-size:20px; color:white;
+    text-align:center;
+}
+.parent>div{
+    height:100px;
+    background-color: green;
+    border: 3px solid black;
+}
+
+input[class^="input"]{
+    display: block;
+    width: 60px;
+    height: 20px;
+    margin: 10px;
+}
+
+div[class^="box"]{
+    text-align:center; line-height:100px;
+    color:white;
+    span{width:100px; height:100px; padding:10px;
+        margin:10px;}
+    span:nth-of-type(1){background-color:red;}
+    span:nth-of-type(2){background-color:rgb(255, 170, 0);}
+    span:nth-of-type(3){background-color:rgb(0, 76, 255);}
+}
+.box1>span{display:none;}
+.box2>span{display:inline;}
+/* .box3>span  default를 나타낼 값이라 생략*/
+.box4>span{display:inline-block;}
+.box5>span{display:block;}
+
+table{
+    width:300px; height:300px;
+    border:1px solid black;
+}
+td{
+    height:100px; width:100px;
+    border: 1px dashed gray;
+    background-color: rgb(250, 250, 182);
+    transition: 0.5s; 
+}
+td:hover{
+    background-color:rgb(86, 94, 190);
+}
