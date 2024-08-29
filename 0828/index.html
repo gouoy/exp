@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제어문-순차문 이해하기</title>
+</head>
+<body>
+    <h3>현재 나이를 입력 받아 n년후 나이 출력하는 코드(입력 → 처리 → 출력)</h3>
+    <input type="text" class="age">
+    <input type="text" class="after">
+    <button>계산</button>
+    <p></p>
+<script>
+    let result = document.querySelector('p'); 
+    let age = document.querySelector('.age');
+    let na = document.querySelector('.after'); 
+    let btn = document.querySelector('button');
+     
+    //  let ageNum = Number(age.value)
+    // let naNum = Number(na.value)
+    // 렌더링과 동시에 값을 받아버리기 때문에 어디서 이 값을 선언하는 지가, 굉장히 중요하다...$
+
+    btn.addEventListener("click",function(){
+        let ageNum = Number(age.value)
+        let naNum = Number(na.value) // 여기서 선언해야 30,31번줄이 잘 받아서 반영해줌. 
+        let Current = ageNum+naNum
+        result.textContent = `귀하의 나이는 ${ageNum}으로 ${naNum}년 후, ${Current}세가 됩니다.` ;
+    })
+</script>
+</body>
+</html>
